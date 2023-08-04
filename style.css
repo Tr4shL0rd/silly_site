@@ -1,0 +1,64 @@
+/* 
+    from https://pronouns.within.lgbt/
+*/
+::selection {
+    background: #d3869b;
+}
+body {
+    background: #282828;
+    color: #ebdbb2;
+}
+pre {
+    background-color: #3c3836;
+    padding: 1em;
+    border: 0;
+}
+a,
+a:active
+{
+    color: #ff75b3;
+    /*background-color: #1d2021;*/
+}
+a:visited {
+    color: #b16286;
+}
+
+/*
+    from https://notnite.com
+*/
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container {
+    margin: 0;
+    width: 30rem;
+    overflow-x: auto;
+    overflow-wrap: break-word;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+.red {
+    color: #fb4934;
+}
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+html {
+    background-color: #282828;
+    color: #ebdbb2;
+    color-scheme: dark;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.25rem;
+}
+
+/*
+    MINE
+*/
+
+.pronouns {
+    font-size: 1rem;
+    margin: 0;
+}
