@@ -2,25 +2,25 @@
     from https://pronouns.within.lgbt/
 */
 ::selection {
-    background: #d3869b;
+    background: #d3869b; /* Selected text color */
 }
 body {
-    background: #282828;
-    color: #ebdbb2;
+    background: #282828; /* background color */
+    color: #ebdbb2; /* text color*/
 }
+/*
 pre {
-    background-color: #3c3836;
+    background-color: #3c3836; 
     padding: 1em;
     border: 0;
 }
+*/
 a,
-a:active
-{
-    color: #ff75b3;
-    /*background-color: #1d2021;*/
+a:active {
+    color: #ff75b3; /* unvisted link color */
 }
 a:visited {
-    color: #b16286;
+    color: #b16286; /* visted link color */
 }
 
 /*
@@ -38,8 +38,8 @@ a:visited {
     overflow-wrap: break-word;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
-.red {
-    color: #fb4934;
+.purple {
+    color: #a430c1;
 }
 .title {
     font-size: 3rem;
