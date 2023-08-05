@@ -10,6 +10,9 @@
 
 ## SITES
 
+* https://matthil.de/
+* https://transbro.neocities.org/
+* https://sadgrl.online/
 * https://maple.pet/
 * https://notnite.com/
 * https://ilwag.com/
@@ -28,4 +31,3 @@
 ## BADGES
 
 * https://cyber.dabamos.de/88x31/index.html
-* \<img style="border:1px solid white;" src="https://yesterweb.org/no-to-web3/img/roly-saynotoweb3.gif">
