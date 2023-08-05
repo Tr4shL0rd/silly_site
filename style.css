@@ -58,7 +58,58 @@ html {
     MINE
 */
 
-.pronouns {
+.sub-title {
     font-size: 1rem;
     margin: 0;
+}
+
+.repo-title {
+    font-size: 35px;
+}
+.repo-tag {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    /*border: 2px solid #f2f2f2; /* Set the border width and color */
+    border-radius: 15px;
+    margin: 0;
+}
+
+/* TAGS */
+
+.python {
+    border: 2px solid #3572A5;
+}
+
+.csharp {
+    border: 2px solid #178600;
+}
+
+.javascript {
+    border: 2px solid #f1e05a;
+}
+
+.rust {
+    border: 2px solid #dea584;
+}
+
+
+.web {
+    border: 2px solid #e640a6
+}
+
+.cli {
+    border: 2px solid #8d222b;
+}
+
+.tool {
+    border: 2px solid #cccccc;
+}
+
+.ai {
+    border: 2px solid #a4ec92;
+}
+
+.media {
+    border: 2px solid #1d1ae0;
 }
