@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Woops :3</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            window.onload = function () {
+                //console.log("Hello, World!");
+                let gifs = [
+                    "gifs/Ah_eto_bleh.gif",
+                    "gifs/cat_walking.gif",
+                    "gifs/crie.gif",
+                ];
+                let gif = gifs[Math.floor(Math.random() * gifs.length)];
+                let gif_place = document.getElementById("replace-me");
+                //console.log(item);
+                //console.log(gif_place.outerHTML)
+                gif_place.outerHTML = `<img src="${gif}" id="replace-me">`;
+            };
+        </script>
+        <div class="section">
+            <div class="container">
+                <div id="top-bit">
+                    <h1 class="title purple">Page can't be found</h1>
+                    <h3 class="sub-title purple">woopsie-fuck</h3>
+                </div>
+                <div class="navbar">
+                    <hr />
+                    <a href="index.html">Home</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="articles.html">Articles</a>
+                    <hr />
+                </div>
+                <div id="middle-bit">
+                    <p>
+                        Something fucky wucky happend and now you're lost in
+                        cyberspace
+                    </p>
+                    <center>
+                        <img src="gifs/cat_walking.gif" id="replace-me" />
+                    </center>
+                </div>
+
+                <hr />
+
+                <div id="bottom-bit"></div>
+                <center>
+                    <a href="https://cyber.dabamos.de/88x31/index.html"
+                        ><img
+                            src="badges/88x31.gif"
+                            alt="badges"
+                            title="badges"
+                    /></a>
+                    <a href="https://yesterweb.org/no-to-web3/"
+                        ><img
+                            src="badges/saynotoweb3_88x31.gif"
+                            alt="no to Web3"
+                            title="Say NO to WEB3"
+                    /></a>
+                    <img
+                        src="badges/antinazi_88x31.gif"
+                        alt="antinazi"
+                        title="nazies are cringe"
+                    />
+                    <img
+                        src="badges/piracy_88x31.gif"
+                        alt="piracy now"
+                        title="piracy is poggies and you should do it"
+                    />
+                    <img
+                        src="badges/nonbinary_88x31.png"
+                        alt="non-binary pride"
+                        title="non-binary blob"
+                    />
+                    <img
+                        src="badges/queer_88x31.png"
+                        alt="queer pride"
+                        title="im queeeer as fuck"
+                    />
+                    <img
+                        src="badges/transRightsNow_88x31.png"
+                        alt="TRANS RIGHTS!"
+                        title="TRANS RIGHTS!"
+                    />
+                    <img
+                        src="badges/acab_88x31.gif"
+                        alt="acab"
+                        title="fuck the cops"
+                    />
+                </center>
+            </div>
+        </div>
+    </body>
+</html>
