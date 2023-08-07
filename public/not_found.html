@@ -11,16 +11,20 @@
         <script type="text/javascript">
             window.onload = function () {
                 //console.log("Hello, World!");
-                let gifs = [
+                let files = [
                     "gifs/Ah_eto_bleh.gif",
                     "gifs/cat_walking.gif",
                     "gifs/crie.gif",
+                    "imgs/exploded.jpg",
+                    "imgs/floated.jpg",
+                    "imgs/loaded.jpg",
+                    "imgs/waistcoated.jpg"
                 ];
-                let gif = gifs[Math.floor(Math.random() * gifs.length)];
-                let gif_place = document.getElementById("replace-me");
+                let file = files[Math.floor(Math.random() * files.length)];
+                let file_place = document.getElementById("replace-me");
                 //console.log(item);
                 //console.log(gif_place.outerHTML)
-                gif_place.outerHTML = `<img src="${gif}" id="replace-me">`;
+                file_place.outerHTML = `<img src="${file}" id="replace-me">`;
             };
         </script>
         <div class="section">
