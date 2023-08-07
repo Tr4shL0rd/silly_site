@@ -53,7 +53,9 @@ html {
 /*
     MINE
 */
-
+.purple-link {
+    color: #a430c1;
+}
 .DEBUG {
     border: 1px solid red;
 }
