@@ -57,6 +57,9 @@ html {
 /*
     MINE
 */
+.DEBUG {
+    border: 1px solid red;
+}
 .alias {
     font-size: 35px;
     margin: 0;
@@ -67,9 +70,10 @@ html {
 }
 
 .repo-title {
+    margin: 0;
     font-size: 35px;
 }
-.repo-tag {
+.tag {
     font-size: 13px;
     display: inline-block;
     padding: 5px 10px;
@@ -78,10 +82,22 @@ html {
     margin: 0;
 }
 
+.article-title {
+    margin: 0;
+}
+
+.article-date {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+}
+
 /* TAGS */
 
+/* REPO TAGS */
+
 .python {
-    border: 2px solid #3572A5;
+    border: 2px solid #3572a5;
 }
 
 .csharp {
@@ -96,9 +112,8 @@ html {
     border: 2px solid #dea584;
 }
 
-
 .web {
-    border: 2px solid #e640a6
+    border: 2px solid #e640a6;
 }
 
 .cli {
@@ -115,4 +130,31 @@ html {
 
 .media {
     border: 2px solid #1d1ae0;
+}
+
+/* ARTICLE TAGS */
+
+.security {
+    border: 2px solid #0e96cc;
+}
+
+.infosec {
+    border: 2px solid #32ff5e;
+}
+
+.analysis {
+    border: 2px solid #edff4b;
+}
+
+.gaming {
+    border: 2px solid #cc0e57;
+}
+
+.programming {
+    border: 2px solid #0e1bcc;
+}
+/* sources */
+
+.creator {
+    border: 2px solid #c300ff;
 }
