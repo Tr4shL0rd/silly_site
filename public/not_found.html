@@ -10,7 +10,6 @@
     <body>
         <script type="text/javascript">
             window.onload = function () {
-                //console.log("Hello, World!");
                 let files = [
                     "gifs/Ah_eto_bleh.gif",
                     "gifs/cat_walking.gif",
@@ -22,9 +21,7 @@
                 ];
                 let file = files[Math.floor(Math.random() * files.length)];
                 let file_place = document.getElementById("replace-me");
-                //console.log(item);
-                //console.log(gif_place.outerHTML)
-                file_place.outerHTML = `<img src="${file}" id="replace-me">`;
+                file_place.outerHTML = `<img src="${file}" id="replace-me" width=255 height=255>`;
             };
         </script>
         <div class="section">
