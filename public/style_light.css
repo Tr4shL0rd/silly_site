@@ -1,0 +1,145 @@
+/* Light Theme */
+::selection {
+    background: #a430c1; /* Selected text color */
+}
+body {
+    background: #f8f8f8; /* background color */
+    color: #333; /* text color */
+}
+a,
+a:active {
+    color: #ff75b3; /* unvisted link color */
+}
+a:visited {
+    color: #b16286; /* visted link color */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container {
+    margin: 0;
+    width: 30rem;
+    overflow-x: auto;
+    overflow-wrap: break-word;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+html {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.25rem;
+}
+
+.purple-link {
+    color: #a430c1;
+}
+.DEBUG {
+    border: 1px solid red;
+}
+.purple {
+    color: #a430c1;
+}
+.alias {
+    font-size: 35px;
+    margin: 0;
+}
+.sub-title {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.repo-title {
+    margin: 0;
+    font-size: 35px;
+}
+.tag {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.article-title {
+    margin: 0;
+}
+
+.article-date {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* REPO TAGS */
+
+.python {
+    border: 2px solid #3572a5;
+}
+
+.csharp {
+    border: 2px solid #178600;
+}
+
+.javascript {
+    border: 2px solid #f1e05a;
+}
+
+.rust {
+    border: 2px solid #dea584;
+}
+
+.web {
+    border: 2px solid #e640a6;
+}
+
+.cli {
+    border: 2px solid #8d222b;
+}
+
+.tool {
+    border: 2px solid #cccccc;
+}
+
+.ai {
+    border: 2px solid #a4ec92;
+}
+
+.media {
+    border: 2px solid #1d1ae0;
+}
+
+/* ARTICLE TAGS */
+
+.security {
+    border: 2px solid #0e96cc;
+}
+
+.infosec {
+    border: 2px solid #32ff5e;
+}
+
+.analysis {
+    border: 2px solid #edff4b;
+}
+
+.gaming {
+    border: 2px solid #cc0e57;
+}
+
+.programming {
+    border: 2px solid #0e1bcc;
+}
+
+/* sources */
+
+.creator {
+    border: 2px solid #c300ff;
+}
