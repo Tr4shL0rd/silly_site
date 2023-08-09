@@ -54,6 +54,13 @@ html {
     MINE
 */
 
+.lightswitch {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    cursor: pointer;
+}
 #inspired {
     font-size: 18px;
 }
