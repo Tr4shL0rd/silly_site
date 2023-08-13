@@ -53,6 +53,15 @@ html {
 /*
     MINE
 */
+.book-author {
+    font-size: 1rem;
+    margin: 0;
+}
+.book-published {
+    font-size: 1rem;
+    margin: 0;
+}
+
 .code {
     background-color:#58404e;
     font-size: .9rem;
@@ -73,6 +82,7 @@ html {
 }
 .DEBUG {
     border: 1px solid red;
+    color: rgb(236, 24, 236)
 }
 .purple {
     color: #a430c1;
