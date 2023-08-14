@@ -64,6 +64,9 @@ html {
 .book-cover {
     width: 200px;
     height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .code {
