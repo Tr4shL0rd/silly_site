@@ -89,7 +89,7 @@ html {
 }
 .DEBUG {
     border: 1px solid red;
-    color: rgb(236, 24, 236)
+    color: rgb(236, 24, 236) /* TEXT COLOR */
 }
 .purple {
     color: #a430c1;
@@ -111,7 +111,6 @@ html {
     font-size: 13px;
     display: inline-block;
     padding: 5px 10px;
-    /*border: 2px solid #f2f2f2; /* Set the border width and color */
     border-radius: 15px;
     margin: 0;
 }
