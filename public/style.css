@@ -53,6 +53,11 @@ html {
 /*
     MINE
 */
+
+.pronouns {
+    width: 10px;
+    display: inline;
+}
 .book-author {
     font-size: 1rem;
     margin: 0;
