@@ -1,1 +1,4 @@
 *.bac
+html_out
+.sites_created.csv
+__pycache__
