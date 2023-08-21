@@ -1,4 +1,8 @@
 /* Light Theme */
+.lightswitch {
+    float: right;
+    cursor: pointer;
+}
 ::selection {
     background: #a430c1; /* Selected text color */
 }
