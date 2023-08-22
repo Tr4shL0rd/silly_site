@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
+        <script src="javascript/index.js"></script>
         <title>Books :3</title>
     </head>
-    <body>
+    <body onload="themeChecker();">
         <section class="section">
             <div class="container">
                 <div id="top-bit">
@@ -20,7 +21,8 @@
                     <a href="index.html">Home</a> |
                     <a href="portfolio.html">Portfolio</a> |
                     <a href="articles.html">Articles</a> |
-                    <a href="books.html">Books</a>
+                    <a href="books.html">Books</a> |
+                    <a class="lightswitch" onclick="toggleTheme()">Theme</a>
                     <hr />
                 </div>
                 <div id="middle-bit">

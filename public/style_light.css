@@ -18,6 +18,7 @@ a:visited {
     color: #860740; /* visted link color */
 }
 
+
 .section {
     display: flex;
     justify-content: center;
@@ -40,6 +41,21 @@ html {
     color: #333;
     font-family: "Inconsolata", monospace;
     font-size: 1.25rem;
+}
+.book-author {
+    font-size: 1rem;
+    margin: 0;
+}
+.book-published {
+    font-size: 1rem;
+    margin: 0;
+}
+.book-cover {
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .purple-link {
