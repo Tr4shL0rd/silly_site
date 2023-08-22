@@ -12,10 +12,10 @@ body {
 }
 a,
 a:active {
-    color: #ff75b3; /* unvisted link color */
+    color: #dd136e; /* unvisted link color */
 }
 a:visited {
-    color: #b16286; /* visted link color */
+    color: #860740; /* visted link color */
 }
 
 .section {
