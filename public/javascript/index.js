@@ -36,12 +36,10 @@ function toggleTheme() {
         theme.setAttribute("href", "style.css");
         setCookie("theme", "dark", 1);
     }
-    console.log(`theme is ${getCookie("theme")}`)
 }
 
 function themeChecker() {
     var theme = document.getElementsByTagName("link")[0];
-    console.log(getCookie("theme"));
     if (getCookie("theme") == "light") {
         theme.setAttribute("href", "style_light.css");
     }
