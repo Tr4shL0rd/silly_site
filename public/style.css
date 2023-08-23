@@ -82,6 +82,7 @@ html {
 .lightswitch {
     float: right;
     cursor: pointer;
+    user-select: none;
 }
 #inspired {
     font-size: 18px;
