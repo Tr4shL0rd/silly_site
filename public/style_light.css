@@ -2,6 +2,7 @@
 .lightswitch {
     float: right;
     cursor: pointer;
+    user-select: none;
 }
 ::selection {
     background: #a430c1; /* Selected text color */
