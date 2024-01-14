@@ -39,7 +39,7 @@ function toggleTheme() {
         //    setCookie("theme", "dark", 1);
         //    setCookie("alertPop", "false", 1);
         //}
-        alert("Light theme is buggy (Neocities won't load the actual css file properly")
+        alert("Light theme may be shown improperly if addons are enabled")
         setCookie("alertPop", "true", 1);
     }
     if (theme.getAttribute("href") == "style.css") {
