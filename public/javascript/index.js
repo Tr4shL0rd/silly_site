@@ -29,8 +29,9 @@ function setDefaultTheme() {
 
 function toggleTheme() {
     var theme = document.getElementsByTagName("link")[0];
-    if (getCookie("theme") != "light") {
+    if (getCookie("theme") != "light" && getCookie("alertPop") != "true") {
         alert("Light theme is buggy (Neocities won't load the actual css file properly")
+        setCookie("alertPop", "true", 1);
     }
     if (theme.getAttribute("href") == "style.css") {
         theme.setAttribute("href", "style_light.css");
