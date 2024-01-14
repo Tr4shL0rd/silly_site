@@ -30,6 +30,15 @@ function setDefaultTheme() {
 function toggleTheme() {
     var theme = document.getElementsByTagName("link")[0];
     if (getCookie("theme") != "light" && getCookie("alertPop") != "true") {
+        //if (confirm("Light theme is buggy (Neocities won't load the actual css file properly). use anyway?")) {
+        //    theme.setAttribute("href", "style_light.css");
+        //    setCookie("theme", "light", 1);
+        //    setCookie("alertPop", "true", 1);
+        //} else {
+        //    theme.setAttribute("href", "style.css");
+        //    setCookie("theme", "dark", 1);
+        //    setCookie("alertPop", "false", 1);
+        //}
         alert("Light theme is buggy (Neocities won't load the actual css file properly")
         setCookie("alertPop", "true", 1);
     }
