@@ -32,13 +32,19 @@ def get_info():
     creator = input("article author: ") or "TBA <CREATOR>"
     title   = input("article title: ") or "TBA <TITLE>"
     tags    = input("Tags (seperate with commas): ") or "TBA,TBA,TBA"
+    
     return (date, creator, title, tags.replace(", ", ",").strip().split(","))
 
 def gen(link,text):
     """generates HTML"""
+    available_tags = get_all_article_tags()
+    
     date,creator,title,tags = get_info()
     cap_tags = []
     for tag in tags:
+        if f".{tag.lower()}" not in available_tags:
+            print(f"WARNING: {tag} does not have a css!")
+            print(generate_placeholder_tag_color(tag.lower()))
         cap_tags.append(tag.capitalize())
     new_temp = TEMPLATE.format(DATE=date, LINK=link, CREATOR=creator, TITLE=title, TAG=tags, CAPITALIZED_TAG=cap_tags, TEXT=text)
     return (new_temp,title,link)
@@ -51,10 +57,35 @@ def double_check(site,text,count:int=0):
         count += 1
         _,text = get_first_article_paragraph.get_para(site, count)
         double_check(site,text,count)
-        
+
+def get_all_article_tags():
+    """reads style.css and scrapes all article tag classes"""
+    tags = []
+    with open("../public/style.css", "r") as css_file:
+        lines = css_file.readlines()
+        #print(lines)
+        tag_block = lines.index("/* TAGS */\n")
+        for line in lines[tag_block::]:
+            tag = line.strip()
+            if tag.startswith("."):
+                proper_tag = tag[tag.index("."):tag.index(" {")]
+                tags.append(proper_tag)
+    return tags
+
+def generate_placeholder_tag_color(tag:str):
+    """generates a placeholder for article tags"""
+    bracket_open = "{"
+    bracket_close = "}"
+
+    color = "#48ff00"
+    css = f""".{tag}  {bracket_open}
+        border: 2px solid {color};
+    {bracket_close}"""
+    return css
 
 def main():
     """main"""
+    
     #sites = ["https://maia.crimew.gay/posts/kick.com-sucks/", "https://notnite.com/blog/ffxiv-modloader-ace/", "https://kenschutte.com/python-swap-ints/"]
     if len(argv) <= 1:
         sites = [input("article URL: ")]
