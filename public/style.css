@@ -58,6 +58,12 @@ html {
     width: 10px;
     display: inline;
 }
+.left-pronoun {
+    margin-right: -10px;
+}
+.right-pronoun {
+    margin-left: -10px;
+}
 .book-author {
     font-size: 1rem;
     margin: 0;
@@ -103,9 +109,11 @@ html {
 }
 .sub-title {
     font-size: 1rem;
-    margin: 0;
+    margin: 0px;
 }
-
+.sub-title-pronouns {
+    font-size: 1rem;
+}
 .repo-title {
     margin: 0;
     font-size: 35px;
