@@ -2,6 +2,7 @@
 .lightswitch {
     float: right;
     cursor: pointer;
+    -webkit-user-select: none; /* adding this because idunno if -webkit-user-select is different from user-select */
     user-select: none;
 }
 ::selection {

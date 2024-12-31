@@ -88,6 +88,7 @@ html {
 .lightswitch {
     float: right;
     cursor: pointer;
+    -webkit-user-select: none; /* adding this because idunno if -webkit-user-select is different from user-select */
     user-select: none;
 }
 #inspired {
@@ -129,11 +130,16 @@ html {
 .article-title {
     margin: 0;
 }
-
 .article-date {
     display: inline-block;
     font-size: 15px;
     margin: 0;
+}
+.giving_receiving {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    text-decoration: underline;
 }
 
 /* TAGS */
